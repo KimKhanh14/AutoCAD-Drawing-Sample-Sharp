@@ -4,6 +4,8 @@
 # Contributors
 This project is carried out by group 3 members, including:
 - [Kimkhanh14](https://github.com/KimKhanh14)
+- [pnaquoc19](https://github.com/pnaquoc19)
+- 
 
 # Install
 
