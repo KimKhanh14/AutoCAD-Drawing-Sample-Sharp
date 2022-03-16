@@ -1,0 +1,7 @@
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\bin\Debug\start.scr
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\bin\Debug\PluginAutoCAD.dll
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\bin\Debug\PluginAutoCAD.pdb
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\obj\Debug\PluginAutoCAD.csproj.AssemblyReference.cache
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\obj\Debug\PluginAutoCAD.csproj.CoreCompileInputs.cache
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\obj\Debug\PluginAutoCAD.dll
+C:\Users\Jennie\Documents\GitHub\AutoCADDrawingSampleSharp\Source\PluginAutoCAD\PluginAutoCAD\obj\Debug\PluginAutoCAD.pdb
