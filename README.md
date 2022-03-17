@@ -7,8 +7,8 @@ This project is carried out by group 3 members, including:
 - [pnaquoc19](https://github.com/pnaquoc19)
 - [NgHoangSon](https://github.com/NgHoangSon)
 
-# Install
-
+# How to setup project AutoCAD by Visual Studio
+- Click right mouse file "start.scr" -> Click Properties -> Change Full Path to match link on computer
 
 # Implementation document
 The repository contains 2 main folders: Document, Source.
