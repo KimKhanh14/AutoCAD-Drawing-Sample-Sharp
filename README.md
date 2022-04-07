@@ -9,10 +9,13 @@ This project is carried out by group 3 members, including:
 
 # How to setup project AutoCAD by Visual Studio
 There are 2 ways to create an Add-in programming project for AutoCAD. Method 1 we use directly to install AutoCAD programming support available on Visual Studio. Method 2 will be more complicated, but it is the foundation for plug-in programming for other software.
+
 Step 1:
 Create a “New Project” using “Class Library”. Choosing library .Net Framework (newest).
+
 Step 2:
 Insert API library of AutoCAD into Visual Studio. Change “Copy local” into “False”.
+
 Step 3:
 Change name of Visual’s default class (Pressing “Yes” if asked)
 Add the initial code as following:
@@ -49,7 +52,8 @@ Create a script to load the application when starting AutoCAD
 -	Insert the following line of code into the file "start.scr" and save it:
 netload “<name of project>.dll”
 -	In the Properties section of the "start.scr" file, change the "Copy in the Output Directory" property to "Always Copy"
-Step 5:
+
+ Step 5:
 Change the MSBuild file (.csproj) to run AutoCAd in Debug mode
 -	Find the .csproj file of the current project and open it with notepad
 -	Insert the following line of code in the PropertyGroup section (2nd - the Debug section). Change the AutoCAD path if necessary
@@ -89,7 +93,8 @@ Change the MSBuild file (.csproj) to run AutoCAd in Debug mode
     </Reference>
 ```
 -	Save this file again. The above changes will appear in Visual Studio. The Debug tab of the Properties panel
-Step 6:
+
+ Step 6:
 Export template
 -	Với With AutoCAD 2016 and later, the “LEGACYCODESEARCH” variable value must be changed to 1 (done in AutoCAD software)
 -	Open the project in Visual Studio and try debugging (F5)
