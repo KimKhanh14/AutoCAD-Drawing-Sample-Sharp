@@ -1,5 +1,5 @@
 # AutoCADDrawingSampleSharp
- This is a plug-in of AutoCAD software that supports users to put models of .skp files (SketchUp software) into AutoCAD. This project we did while studying Applied Graphics course at VNUHCM-University of Science. The project is written in C# language on Visual Studio 2019 and AutoCAD 2020 software.
+ This is a plug-in of AutoCAD software that supports users to put models of .skp files (SketchUp software) into AutoCAD. This project we did while studying Applied Graphics course at VNUHCM-University of Science. The project is written in C# language on Visual Studio 2019 and AutoCAD 2021 software.
 
 # Contributors
 This project is carried out by group 3 members, including:
@@ -17,14 +17,16 @@ Step 3:
 Change name of Visual’s default class (Pressing “Yes” if asked)
 Add the initial code as following:
 -	Insert reference library (using keyword)
+```sh
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Geometry;
 using Autodesk.AutoCAD.Runtime;
 using AcAp = Autodesk.AutoCAD.ApplicationServices.Application;
-
+```
 -	Create Test method
+```sh
 public class Commands
     {
         [CommandMethod("TEST")]
@@ -40,7 +42,7 @@ public class Commands
             }    
         }
     }
-
+```
 Step 4:
 Create a script to load the application when starting AutoCAD
 -	Create a file of type Text File named "start.scr"
@@ -51,11 +53,13 @@ Step 5:
 Change the MSBuild file (.csproj) to run AutoCAd in Debug mode
 -	Find the .csproj file of the current project and open it with notepad
 -	Insert the following line of code in the PropertyGroup section (2nd - the Debug section). Change the AutoCAD path if necessary
+```sh
 <StartAction>Program</StartAction>
 <StartProgram>C:\Program Files\Autodesk\AutoCAD 2021\acad.exe</StartProgram>
 <StartArguments>/nlogo /b "start.scr"</StartArguments>
-
+```
 -	The entire PropertyGroup node will look like this:
+```sh
 <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -68,8 +72,9 @@ Change the MSBuild file (.csproj) to run AutoCAd in Debug mode
     <StartProgram>C:\Program Files\Autodesk\AutoCAD 2021\acad.exe</StartProgram>
     <StartArguments>/nlogo /b "start.scr"</StartArguments>
   </PropertyGroup>
-
+```
 -	In the ItemGroup node you may need to change the path of the reference files (if necessary)
+```sh
 <Reference Include="accoremgd">
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\accoremgd.dll</HintPath>
       <Private>False</Private>
@@ -82,7 +87,7 @@ Change the MSBuild file (.csproj) to run AutoCAd in Debug mode
       <HintPath>..\..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\acmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-
+```
 -	Save this file again. The above changes will appear in Visual Studio. The Debug tab of the Properties panel
 Step 6:
 Export template
