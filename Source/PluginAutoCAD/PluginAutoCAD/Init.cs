@@ -32,7 +32,7 @@ namespace PluginAutoCAD
                 BlockTableRecord curSpace = trans.GetObject(blockId, OpenMode.ForWrite) as BlockTableRecord;
 
                 ReadSTL stl_read = new ReadSTL();
-                TriangleMesh[] mesh_arr = stl_read.ReadASCII_STL("Untitled1.stl");
+                TriangleMesh[] mesh_arr = stl_read.ReadASCII_STL("Box.stl");
                 foreach (TriangleMesh mesh in mesh_arr)
                 {
                     int step = 0; //Kiểm tra điểm đang xét là điểm thứ mấy

@@ -1,0 +1,107 @@
+solid 390A
+facet normal 0 0 -1
+  outer loop
+    vertex 3133 5069.30029296875 0
+    vertex 0 0 0
+    vertex 0 5069.30029296875 0
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 0 0 0
+    vertex 3133 5069.30029296875 0
+    vertex 3133 0 0
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 3140 0 2909
+    vertex 3133 0 0
+    vertex 3140 0 0
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 3133 0 0
+    vertex 3140 0 2909
+    vertex 0 0 0
+  endloop
+endfacet
+facet normal 0 -1 0
+  outer loop
+    vertex 0 0 0
+    vertex 3140 0 2909
+    vertex 0 0 2909
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 0 5069.30029296875 2909
+    vertex 0 0 0
+    vertex 0 0 2909
+  endloop
+endfacet
+facet normal -1 0 0
+  outer loop
+    vertex 0 0 0
+    vertex 0 5069.30029296875 2909
+    vertex 0 5069.30029296875 0
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 3140 0 2909
+    vertex 0 5069.30029296875 2909
+    vertex 0 0 2909
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 0 5069.30029296875 2909
+    vertex 3140 0 2909
+    vertex 3133 5069.30029296875 2909
+  endloop
+endfacet
+facet normal 0 0 1
+  outer loop
+    vertex 3140 5069.30029296875 2909
+    vertex 3133 5069.30029296875 2909
+    vertex 3140 0 2909
+  endloop
+endfacet
+facet normal 0.9999990463256836 0.001380859757773578 -2.872440253287795e-19
+  outer loop
+    vertex 3133 5069.30029296875 0
+    vertex 3140 0 2909
+    vertex 3140 0 0
+  endloop
+endfacet
+facet normal 0.9999990463256836 0.001380859757773578 -2.872440253287795e-19
+  outer loop
+    vertex 3140 0 2909
+    vertex 3133 5069.30029296875 0
+    vertex 3133 5069.30029296875 2909
+  endloop
+endfacet
+facet normal -2.304217872431559e-16 1 -2.481647981475286e-16
+  outer loop
+    vertex 0 5069.30029296875 2909
+    vertex 3133 5069.30029296875 0
+    vertex 0 5069.30029296875 0
+  endloop
+endfacet
+facet normal -2.304217872431559e-16 1 -2.481647981475286e-16
+  outer loop
+    vertex 3133 5069.30029296875 0
+    vertex 0 5069.30029296875 2909
+    vertex 3133 5069.30029296875 2909
+  endloop
+endfacet
+facet normal 0 0 -1
+  outer loop
+    vertex 3140 0 0
+    vertex 3133 0 0
+    vertex 3133 5069.30029296875 0
+  endloop
+endfacet
+endsolid 390A
