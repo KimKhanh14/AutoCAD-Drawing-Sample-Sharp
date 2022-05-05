@@ -1,5 +1,5 @@
 # Introduction
- This is a plug-in of AutoCAD software that supports users to put models of .skp files (SketchUp software) into AutoCAD. This project we did while studying Applied Graphics course at VNUHCM-University of Science. The project is written in C# language on Visual Studio 2019 and AutoCAD 2021 software.
+ This is a plug-in of AutoCAD software that supports users to put models of .stl files into AutoCAD. This project we did while studying Applied Graphics course at VNUHCM-University of Science. The project is written in C# language on Visual Studio 2019 and AutoCAD 2021 software.
 
 # Contributors
 This project is carried out by group 3 members, including:
